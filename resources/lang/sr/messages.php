@@ -9,6 +9,15 @@ return [
     */
 
     'login' => 'Login',
+    'logout' => 'Logout',
+    'email' => 'E-mail',
+    'password' => 'Password',
+    'forgot_password' => 'Forgot your password',
+    'remember_me' => 'Remember me',
+
+    'name' => 'Name',
+    'confirm_password' => 'Confirm password',
+    
     'register' => 'Register',
     'welcome' => 'Srpski',
     'home' => 'Home',

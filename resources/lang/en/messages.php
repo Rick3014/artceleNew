@@ -8,7 +8,16 @@ return [
     |--------------------------------------------------------------------------
     */
     'login' => 'Login',
+    'logout' => 'Logout',
     'register' => 'Register',
+    'email' => 'E-mail',
+    'password' => 'Password',
+    'forgot_password' => 'Forgot your password',
+    'remember_me' => 'Remember me',
+
+    'name' => 'Name',
+    'confirm_password' => 'Confirm password',
+    
     'welcome' => 'English',
     'home' => 'Home',
     'news' => 'News',
