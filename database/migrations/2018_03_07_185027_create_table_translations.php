@@ -21,7 +21,8 @@ class CreateTableTranslations extends Migration
                 $table->integer('column');
                 $table->integer('language_id')->unsigned();
                 $table->foreign('language_id')->references('id')->on('languages');
-                $table->index(array('table','column','language_id'));
+                $table->unique(array('table','column','language_id'), 'translations_table_column_language_id_unique');
+                // $table->unique('translations_table_column_language_id_index');
                 $table->rememberToken();
                 $table->timestamps();
             });
